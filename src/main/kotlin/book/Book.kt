@@ -12,13 +12,8 @@ class Book {
     /**
      * This is the main function. This method is called to generate the book.html
      */
-    fun createHtml() {
-        obtainAllAsciiDocs()
-    }
-
-    private fun obtainAllAsciiDocs(): String? {
+    fun generateHtml() {
         val options = OptionsBuilder.options().safe(SafeMode.SAFE).asMap()
-        return asciidoctor.convertFile(File("docs/book.adoc"), options)
+        asciidoctor.convertFile(File("docs/book.adoc"), options)
     }
-
 }
