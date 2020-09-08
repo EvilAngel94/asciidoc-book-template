@@ -13,3 +13,8 @@ dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib"
     implementation "org.asciidoctor:asciidoctorj:2.1.0"
 }
+
+task runCreateBook(type: JavaExec) {
+    main = 'book.CreateBook'
+    classpath = sourceSets.main.runtimeClasspath
+}
