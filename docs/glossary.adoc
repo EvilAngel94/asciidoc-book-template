@@ -1,0 +1,8 @@
+== Glossary
+:hardbreaks:
+
+Term 01::
+This is the explanation of Term01
+
+Term 02::
+This is the explanation of Term02

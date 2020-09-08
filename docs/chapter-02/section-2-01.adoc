@@ -1,0 +1,14 @@
+== Chapter 3
+:hardbreaks:
+
+=== Table bla
+[cols="^13,^10,^10,^10,^10,^10,^10",grid="cols",frame="none"]
+|====
+1.2+s| Row Header 6+s| Column header
+| column1         |column2  | column3 |  column4 | column5 | column6
+| Row1  |Object 1|||||
+| Row2 |Object 2|Object 3||||
+| Row3 |||Object 4|||
+| Row5 ||||||Object 5
+|  2+s|2 cells 2+s|2 cells 2+s|2 cells
+|====

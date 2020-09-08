@@ -1,0 +1,8 @@
+== Chapter 1
+:hardbreaks:
+
+Within this chapter, there are different sections.
+
+Bla bla bla
+
+include::section-1-02.adoc[]

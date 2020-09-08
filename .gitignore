@@ -1,0 +1,5 @@
+.idea
+.gradle
+
+# For now this should be ignored as this needs to become automatically generated.
+book.html
