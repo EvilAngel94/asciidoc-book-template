@@ -1,0 +1,128 @@
+/*
+  This is the custom css file.
+  Within this file it is possible to alter the id's and classes for the manual.
+ */
+@import "asciidoctor.css";
+
+body {
+}
+
+#header {
+}
+
+/********************
+  Tabel of content
+*********************/
+#toctitle {
+}
+
+/*
+ This property is to change the toc as a whole
+ eg. background-color: ...;
+ changes the background color of the whole table
+ */
+#header > h1:first-child + #toc {
+}
+
+/* Table of content first section */
+.sectlevel1 {
+}
+
+/* Table of content second section */
+.sectlevel2 {
+}
+
+/* Table of content third section */
+.sectlevel3 {
+}
+
+/* Table of content fourth section */
+.sectlevel4 {
+}
+
+/****************************
+  All content related stuff
+*****************************/
+#content {
+}
+
+/*
+When a title of a chapter need to changed, the id of this section should be specified
+Often this is _{nameOfSection} E.g. _overzicht
+*/
+#_overzicht {
+}
+
+/* This is generated underneath the title of a chapter.*/
+.sectionbody {
+}
+
+/* actual content within a sectionbody */
+.paragraph {
+}
+
+/* unorderd list */
+.ulist {
+}
+
+/* ordered list */
+.olist {
+}
+
+/* made ordered lists have the same layout as in the pictures */
+ol {
+  display: block;
+  padding: 0 0 0 26px;
+  list-style: none;
+  overflow: hidden;
+  counter-reset: numList;
+}
+
+ol li {
+  position: relative;
+}
+
+ol li:before {
+  counter-increment: numList;
+  content: counter(numList);
+
+  position: absolute;
+  left: -26px;
+
+  font-size: 14px;
+  text-align: center;
+  color: black;
+
+  width: 24px;
+  height: 24px;
+  background: red;
+
+  -moz-border-radius: 999px;
+  border-radius: 999px;
+  border: solid black 1px;
+}
+
+/********************
+  Image content
+*********************/
+.imageblock {
+}
+
+/*
+This class is ONLY used when an image block is created.
+The property evaluate the subtext underneath an property
+*/
+.title {
+}
+
+/********************
+  Footer content
+*********************/
+#footnotes {
+}
+
+#footer {
+}
+
+#footer-text {
+}

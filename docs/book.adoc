@@ -1,10 +1,13 @@
+[.text-justify]
 = Book Template
 :doctype: book
 :lang: nl-NL
-:ascii-ids:
-:gitrepo: https://github.com/EvilAngel94/asciidoc-book-template
-:toc: left
-:hardbreaks:
+:toclevels: 5
+:img-base-location: ./../images
+
+[#example]
+.Example of an implementation
+image::{img-base-location}/wallpaper.jpg[]
 
 include::chapter-01/section-1-01.adoc[]
 include::chapter-02/section-2-01.adoc[]
