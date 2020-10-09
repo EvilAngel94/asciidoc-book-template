@@ -3,7 +3,7 @@ This repository is a template to create a single page html document.
 Main purpose of creating this is to have a start and just a basic structure.
 
 ## How To Use
-- Put your `.adoc` files in the 'docs' directory. This directory can be found in the root of the project.
+- Put your `.adoc` files in the 'docs' directory. This directory can be found in the src folder.
 - Make sure the `book.adoc`, `glossary.adoc` are present in the root of the language folder
 - Also have a css folder inside the root language folder (eg. `/docs/ned/css/`),
     - within this css folder a `passThrough.css` need to be present with an import statement:

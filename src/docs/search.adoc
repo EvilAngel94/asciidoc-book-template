@@ -1,0 +1,7 @@
+// Dit is om zelf een zoek functie toe te kunnen voegen.
+++++
+<p id="searchParagraph">
+  <input id="search" type="text" placeholder="Search.." name="search"><button onclick="search()">Search</button>
+</p>
+<script src="../../main/resources/js/search.js"></script>
+++++

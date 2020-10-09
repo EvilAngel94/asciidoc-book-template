@@ -8,6 +8,7 @@ import java.nio.file.Paths
 class Book {
 
     private val asciidoctor = Asciidoctor.Factory.create()
+    private val prefix = "src/docs"
 
     /**
      * This is the main function. This method is called to generate the book.html
@@ -18,7 +19,7 @@ class Book {
         val attributes = createTheAttributes()
         val options = createOptions(attributes)
 
-        asciidoctor.convertFile(File("docs/book.adoc"), options)
+        asciidoctor.convertFile(File("$prefix/book.adoc"), options)
     }
 
     /**

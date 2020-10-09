@@ -5,6 +5,9 @@
 :toclevels: 5
 :img-base-location: ./../images
 
+include::search.adoc[]
+
+
 [#example]
 .Example of an implementation
 image::{img-base-location}/wallpaper.jpg[]

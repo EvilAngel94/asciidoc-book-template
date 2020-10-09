@@ -4,6 +4,42 @@
  */
 @import "asciidoctor.css";
 
+input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.sticky {
+  padding: 10px 16px;
+  background: white;
+  color: #f1f1f1;
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  max-width: 970px;
+  /*Make sure the search panel is always on top*/
+  z-index: 10000;
+}
+
+.sticky + #content {
+  padding-top: 102px;
+}
+
+#search {
+  width: 100%;
+  padding: 6px 10px;
+  background: #f2f2f2;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  height: 32px;
+  /*Make sure the search panel is always on top*/
+  z-index: 10001;
+}
+
 body {
 }
 
@@ -13,6 +49,9 @@ body {
 /********************
   Tabel of content
 *********************/
+.sidebar {
+}
+
 #toctitle {
 }
 
@@ -44,6 +83,7 @@ body {
   All content related stuff
 *****************************/
 #content {
+  padding: 16px;
 }
 
 /*
@@ -51,6 +91,9 @@ When a title of a chapter need to changed, the id of this section should be spec
 Often this is _{nameOfSection} E.g. _overzicht
 */
 #_overzicht {
+}
+
+#_coach {
 }
 
 /* This is generated underneath the title of a chapter.*/
