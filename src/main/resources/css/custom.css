@@ -4,11 +4,19 @@
  */
 @import "asciidoctor.css";
 
+/********************
+  Search class
+*********************/
+.highlighted {
+  background-color: yellow;
+}
+
 input[type=text] {
   padding: 6px;
   margin-top: 8px;
   font-size: 17px;
   border: none;
+  width: 700px;
 }
 
 .sticky {
@@ -20,7 +28,7 @@ input[type=text] {
   position: fixed;
   top: 0;
   max-width: 970px;
-  /*Make sure the search panel is always on top*/
+  /* Make sure the search panel is always on top */
   z-index: 10000;
 }
 
@@ -28,18 +36,27 @@ input[type=text] {
   padding-top: 102px;
 }
 
-#search {
-  width: 100%;
+#search-text {
+  width: 70%;
   padding: 6px 10px;
   background: #f2f2f2;
   font-size: 16px;
   border: none;
   cursor: pointer;
   height: 32px;
-  /*Make sure the search panel is always on top*/
+  /* Make sure the search panel is always on top */
   z-index: 10001;
 }
 
+.ui-button {
+  display: inline-block;
+  padding: 2px 6px;
+  margin: 2px;
+}
+
+/********************
+  Content
+*********************/
 body {
 }
 

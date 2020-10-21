@@ -1,7 +1,10 @@
 // Dit is om zelf een zoek functie toe te kunnen voegen.
 ++++
 <p id="searchParagraph">
-  <input id="search" type="text" placeholder="Search.." name="search"><button onclick="search()">Search</button>
+  <input id="search-text" type="text" placeholder="Search.." name="search">
+  <input class="ui-button" id="search-button" type="submit" value="Zoek" />
+  <input class="ui-button" id="next-button" type="submit" value="Volgende" />
+  <input class="ui-button" id="previous-button" type="submit" value="Vorige" />
 </p>
-<script src="../../main/resources/js/search.js"></script>
+<script src="../main/resources/js/search.js"></script>
 ++++
